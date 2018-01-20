@@ -76,8 +76,8 @@ func GetMD5Hash(text string) string {
 }
 
 func CheckEntry(solution string) bool{
-	//md5Easy := "e4820b45d2277f3844eac66c903e84be" // answer is "printout stout yawls"
-	md5Medium := "23170acc097c24edb98fc5488ab033fe" // "ty outlaws printouts"
+	//md5Easy := "e4820b45d2277f3844eac66c903e84be" 
+	md5Medium := "23170acc097c24edb98fc5488ab033fe" 
 	//md5Hard := "665e5bcb0c20062fe8abaaf4628bb154" 
 
 	if (GetMD5Hash(solution) == md5Medium) {
